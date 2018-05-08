@@ -20,6 +20,8 @@ public class Main extends Application {
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			
+			PowerOutagesController controller = loader.getController();
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
